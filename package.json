@@ -1,0 +1,26 @@
+{
+  "name": "cli-meter",
+  "version": "0.0.1",
+  "description": "Dynamic meter in your terminal",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "keywords": [
+    "cli",
+    "console",
+    "terminal",
+    "meter",
+    "progress",
+    "bar",
+    "percent"
+  ],
+  "author": "Tabcorp",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "~1.20.1"
+  }
+}
