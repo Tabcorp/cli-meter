@@ -8,36 +8,36 @@ Creating a meter
 
 ```coffee
 # 100 steps by default
-p = new Meter()
+m = new Meter()
 
 # optional total steps
-p = new Meter(total: 500)
+m = new Meter(total: 500)
 
 # optional starting value
-p = new Meter(total: 500, value: 120)
+m = new Meter(total: 500, value: 120)
 
 # optional display length in the terminal
-p = new Meter(total: 500, length: 30)
+m = new Meter(total: 500, length: 30)
 ```
 
 You can then manipulate it with
 
 ```coffee
-p.step(1)    # increment by 1
-p.step(-3)   # decrement by 3
-p.set(70)    # jump to 70
+m.step(1)    # increment by 1
+m.step(-3)   # decrement by 3
+m.set(70)    # jump to 70
 ```
 
 And finally display it
 
 ```coffee
-console.log "Processing #{p}"
+console.log "Processing #{m}"
 # Processing  [==============      ]
 
-console.log "#{p} #{p.value} dB"
+console.log "#{m} #{m.value} dB"
 # [==============      ] 30 dB
 
-console.log "#{p} #{p.value} / #{p.total}"
+console.log "#{m} #{m.value} / #{m.total}"
 # [==============      ] 230 / 500
 ```
 
@@ -55,9 +55,9 @@ If you have a `TTY` stream like `process.stdout`, you can show animations instea
 ```coffee
 setInterval (->
 
-  process.stdout.write "Meter 1 #{p1}\n"
-  process.stdout.write "Meter 2 #{p2}\n"
-  process.stdout.write "Meter 3 #{p3}\n"
+  process.stdout.write "Meter 1 #{m1}\n"
+  process.stdout.write "Meter 2 #{m2}\n"
+  process.stdout.write "Meter 3 #{m3}\n"
 
   process.stdout.moveCursor 0, -3
 
