@@ -1,5 +1,11 @@
 # cli-meter
 
+
+[![Build Status](https://travis-ci.org/TabDigital/cli-meter.svg?branch=master)](https://travis-ci.org/TabDigital/cli-meter)
+
+[![npm install](https://nodei.co/npm/cli-meter.png?mini=true)](https://nodei.co/npm/cli-meter/)
+
+
 ```coffee
 meter = require 'cli-meter'
 ```
