@@ -1,9 +1,11 @@
 # cli-meter
 
+[![NPM](http://img.shields.io/npm/v/cli-meter.svg?style=flat)](https://npmjs.org/package/cli-meter)
+[![License](http://img.shields.io/npm/l/cli-meter.svg?style=flat)](https://github.com/TabDigital/cli-meter)
 
-[![Build Status](https://travis-ci.org/TabDigital/cli-meter.svg?branch=master)](https://travis-ci.org/TabDigital/cli-meter)
-
-[![npm install](https://nodei.co/npm/cli-meter.png?mini=true)](https://nodei.co/npm/cli-meter/)
+[![Build Status](http://img.shields.io/travis/TabDigital/cli-meter.svg?style=flat)](http://travis-ci.org/TabDigital/cli-meter)
+[![Dependencies](http://img.shields.io/david/TabDigital/cli-meter.svg?style=flat)](https://david-dm.org/TabDigital/cli-meter)
+[![Dev dependencies](http://img.shields.io/david/dev/TabDigital/cli-meter.svg?style=flat)](https://david-dm.org/TabDigital/cli-meter)
 
 
 ```coffee
